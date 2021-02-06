@@ -1,0 +1,72 @@
+/* NavBar Styling */
+
+#navbar {
+  position: static;
+  flex-direction: column;
+  align-items: center;
+}
+
+#navbar ul {
+  flex-direction: column;
+}
+
+#navbar ul li {
+  padding: 13px 0;
+}
+
+#navbar ul li a {
+  padding: 10px;
+}
+
+#nav #navbar .logo {
+  padding: 5px;
+}
+
+/* Showcase Styling */
+
+#showcase .showcase-content .l-heading {
+  font-size: 45px;
+  padding: 5px;
+}
+
+/* Section: About Styling */
+
+#about .info {
+  display: block;
+}
+
+#about .info .bg-img {
+  height: none;
+}
+
+/* Testimonials Page Styling */
+
+.testimonials .reviews .review {
+  flex-direction: column;
+}
+
+.testimonials .reviews .review .name-img-location {
+  padding: 10px;
+  border-radius: 10px 10px 0 0;
+}
+
+.testimonials .reviews .review .name-img-location .person {
+  width: 70px;
+  margin-left: 0;
+}
+
+/* Contact Page Styling */
+
+#our-info {
+  height: 100%;
+}
+
+#our-info .all-info {
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+#our-info .all-info .info {
+  padding: 35px 0;
+}
